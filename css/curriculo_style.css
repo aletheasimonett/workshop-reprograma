@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0.625rem;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+
+.info {
+    background-image: url("../img/banner-cv.png");
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: left;
+}
+
+.info_conteudo {
+    margin: 4.375rem;
+    text-align: left;
+    color: white;
+    line-height: 1.5;
+    /*text-shadow: black 0.1em 0.1em 0.2em;*/
+}
+
+.info_conteudo-telefone, .info_conteudo-email{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    /*background-color: #d8695a;*/
+    color: white;
+    padding: 2rem;
+}
+
+.info_conteudo img {
+    max-width: 2rem;
+    max-height: 2rem;
+}
+/* FIM HEADER */
+
+
+/* SKILLS */ 
+
+.skills{
+    list-style-type: circle;
+    margin: 2.5rem 0;
+    display: flex;
+}
+
+/* FIM SKILLS */
+
+/* INICIO HR */
+
+hr{
+    color: #d8695a;
+    background-color: #d8695a;
+    height: 0.313rem;
+    width: 70%;
+}
+/* FIM HR */
